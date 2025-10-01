@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-url ="https://defesacivil.riodosul.sc.gov.br/index.php?r=externo%2Fmetragem"
+url ='https://defesacivil.riodosul.sc.gov.br/index.php?r=externo/metragem'
 try:
     tabelas = pd.read_html(url)
     #print(tabelas[0])
