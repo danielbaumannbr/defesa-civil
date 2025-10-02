@@ -1,4 +1,6 @@
 import pandas as pd
+#pip install lxml html5lib
+
 import matplotlib.pyplot as plt
 from datetime import datetime
 
